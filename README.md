@@ -9,7 +9,20 @@ This analog circuit uses the general block diagram below to measure biosignals u
 
 ## Getting Started
 
-Below is the circuit diagram for the detector:
+### Specifications
+
+* The bandwidth of 0.5 - 5 Hz should be preserved,
+* Peak-to-peak amplitude at the output should exceed 3.5V,
+* All active filters should conform to the Sallen-Key topology,
+* Less than 5% composite gain distortion in the final passband (theoretical),
+* Less than 100 mV mean DC offset at steady state,
+* Less than 10 seconds settling time for offset perturbation,
+* The entire system should be powered by a 9V battery,
+* Theoretical battery life and SRN should be reasonably maximized.
+
+NOTE: The design process of the filters and the corresponding waveforms can be found inside the Jupyter Notebook file.
+
+Below is the circuit diagram for the detector implementing these specifications:
 
 <img width="285" alt="image" src="https://user-images.githubusercontent.com/43231577/181636013-a3afe355-fde8-4075-b474-b82a5f8b6860.png">
 
