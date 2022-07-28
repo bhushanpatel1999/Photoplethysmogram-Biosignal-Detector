@@ -9,12 +9,15 @@ This analog circuit uses the general block diagram below to measure biosignals u
 
 ## Getting Started
 
+Below is the circuit diagram for the detector:
+
 <img width="285" alt="image" src="https://user-images.githubusercontent.com/43231577/181636013-a3afe355-fde8-4075-b474-b82a5f8b6860.png">
 
-### Dependencies
+### Dependencies (hardware and software)
 
+* 9V power supply
 * 1 TCRT1010 reflective optical sensor
-* 5 LM741 transistors 
+* 5 LM741 op-amps 
 * Resistors:
   * 1 330 $\Omega$
   * 2 10K $\Omega$
@@ -31,14 +34,13 @@ This analog circuit uses the general block diagram below to measure biosignals u
   * 2 10 $\mu F$
   * 1 1 $\mu F$
   * 1 0.1 $\mu F$
-
-### Installing
-
-* Download all files into a local directory in order to later upload to the respective Arduino boards.
+* Red LED
+* Digilent Analog Discovery Studio (optional)
+* Digilent Waveforms desktop application (optional)
 
 ### Executing program
 
-* =
+Because this is an analog circuit, nothing more than a breadboard, power supply, ground, and the listed components is needed. The LED is one way to verify the working of your circuit. However, while optional, the circuit can also be built using Digilent's Analog Discovery Studio and the individual analog signals verified using the accompanying Waveforms application. 
 
 ## Authors
 * Bhushan Patel
