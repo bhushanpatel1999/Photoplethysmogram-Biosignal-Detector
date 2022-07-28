@@ -44,7 +44,7 @@ Because this is an analog circuit, nothing more than a breadboard, power supply,
 
 ## Authors
 * Bhushan Patel
-* Billy Beauregard
+* Kyle Fullen
 
 ## Acknowledgments
-* Harvard Active Learning Labs staff
+* ENG-SCI 152: Circuits, Devices, and Transduction staff
