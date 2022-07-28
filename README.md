@@ -38,7 +38,7 @@ Below is the circuit diagram for the detector:
 * Digilent Analog Discovery Studio (optional)
 * Digilent Waveforms desktop application (optional)
 
-### Executing program
+### Executing circuit
 
 Because this is an analog circuit, nothing more than a breadboard, power supply, ground, and the listed components is needed. The LED is one way to verify the working of your circuit. However, while optional, the circuit can also be built using Digilent's Analog Discovery Studio and the individual analog signals verified using the accompanying Waveforms application. 
 
