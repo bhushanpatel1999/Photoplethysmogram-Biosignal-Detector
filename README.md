@@ -18,7 +18,7 @@ This analog circuit uses the general block diagram below to measure biosignals u
 * Less than 100 mV mean DC offset at steady state,
 * Less than 10 seconds settling time for offset perturbation,
 * The entire system should be powered by a 9V battery,
-* Theoretical battery life and SRN should be reasonably maximized.
+* Theoretical battery life and SNR should be reasonably maximized.
 
 NOTE: The design process of the filters and the corresponding waveforms can be found inside the Jupyter Notebook file.
 
